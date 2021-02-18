@@ -1,0 +1,52 @@
+# 订单用例
+
+orderPage:
+  - title: 我的订单
+    cases:
+      - name: 查看全部订单
+        method: click
+        locator: xpath=/html/body/div[3]/div/div[2]/div[1]/div/ul[1]/li[2]/a
+
+      - name: 固定等待
+        method: sleep
+        time: 2
+
+      - name: 查看待付款
+        method: click
+        locator: xpath=//*[@id="navitems5"]/ul/li[2]/a
+
+      - name: 固定等待
+        method: sleep
+        time: 2
+
+      - name: 查看待发货
+        mathod: click
+        locator: xpath=//*[@id="navitems5"]/ul/li[3]/a
+
+      - name: 固定等待
+        method: sleep
+        time: 2
+
+      - name: 查看待收货
+        method: click
+        locator: xpath=//*[@id="navitems5"]/ul/li[4]/a
+
+      - name: 固定等待
+        method: sleep
+        time: 2
+
+
+      - name: 查看待评论
+        method: click
+        locator: xpath=//*[@id="navitems5"]/ul/li[5]/a
+
+
+#      - name: 输入验证码
+#        method: input
+#        locator: xpath=//*[@id="verify_code"]
+#        value: 111111
+
+
+      - name: 固定等待
+        method: sleep
+        time : 2
