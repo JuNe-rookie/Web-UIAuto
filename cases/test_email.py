@@ -26,7 +26,7 @@ class Test_Email():
         sender = "2734259470@qq.com"
 
         # 接收邮箱
-        receiver = "2287154671@qq.com"
+        receiver = "2734259470@qq.com"
 
         # 发送主题
         subject = '测试完成'
