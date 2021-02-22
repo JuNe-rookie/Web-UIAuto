@@ -21,7 +21,7 @@ if __name__ == '__main__':
     print("==============================    正在生成测试报告    =============================")
     # shutil.copy('/Users/liuyue/Desktop/刘岳/pythonProjectSEle/environment.properties',
     #             r'/Users/liuyue/Desktop/刘岳/pythonProjectSEle/report')
-    os.system('allure generate ./report -o ./report --clean')
+    os.system('allure generate ./temp -o ./report --clean')
 
     # shutil.copy('/Users/liuyue/Desktop/刘岳/pythonProjectSEle/environment.properties',
     #             r'/Users/liuyue/Desktop/刘岳/pythonProjectSEle/report')
