@@ -5,4 +5,4 @@ pytest-xdist
 allure-pytest
 PyYAML
 pytest-ordering
-request
+requests
