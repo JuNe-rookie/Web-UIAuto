@@ -13,7 +13,7 @@ from email.header import Header  # 定义邮件标题
 class Test_Email():
     @allure.story("发送邮件")
     @pytest.mark.login
-    @pytest.mark.run(order=8)
+    @pytest.mark.run(order=9)
     def test_email(self):
         # 发送邮箱服务器
         smtpserver = 'smtp.qq.com'

@@ -1,5 +1,41 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'http://testi...er/login.html' == 'http://www.t...er/index.html'\n  - http://www.testingedu.com.cn:8000/index.php/Home/User/index.html\n  ?        ----                                      ^      ---\n  + http://testingedu.com.cn:8000/index.php/Home/user/login.html\n  ?                                              ^    +++",
+      "children" : [ {
+        "name" : "登录失败",
+        "uid" : "5a154514a9d22a79",
+        "parentUid" : "9d106e3af254d9aab71a0addebce8077",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616465770830,
+          "stop" : 1616465785471,
+          "duration" : 14641
+        },
+        "flaky" : false,
+        "parameters" : [ "{'title': '登录失败', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': 'xpath=//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': 'xpath=//*[@id=\"password\"]', 'value': 123456555}, {'name': '输入验证码', 'method': 'input', 'locator': 'xpath=//*[@id=\"verify_code\"]', 'value': 111111}, {'name': '点击登录', 'method': 'click', 'locator': 'xpath=//*[@id=\"loginform\"]/div/div[6]/a'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}]}" ]
+      } ],
+      "uid" : "9d106e3af254d9aab71a0addebce8077"
+    }, {
+      "name" : "AssertionError: assert '登陆成功' in '密码错误!'",
+      "children" : [ {
+        "name" : "test_loginfail",
+        "uid" : "7948b6e3faf3f271",
+        "parentUid" : "7e010ffc1619017095b4268d31e2393f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616465801117,
+          "stop" : 1616465801261,
+          "duration" : 144
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e010ffc1619017095b4268d31e2393f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

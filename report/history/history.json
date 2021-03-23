@@ -1,1 +1,175 @@
-{ }
+{
+  "85ffffcf14b49a630784742b6848daaa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c66b099f582d192b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616465802394,
+        "stop" : 1616465808785,
+        "duration" : 6391
+      }
+    } ]
+  },
+  "3d1f0b6cffcd0489525db73c0191dca1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a154514a9d22a79",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'http://testi...er/login.html' == 'http://www.t...er/index.html'\n  - http://www.testingedu.com.cn:8000/index.php/Home/User/index.html\n  ?        ----                                      ^      ---\n  + http://testingedu.com.cn:8000/index.php/Home/user/login.html\n  ?                                              ^    +++",
+      "time" : {
+        "start" : 1616465770830,
+        "stop" : 1616465785471,
+        "duration" : 14641
+      }
+    } ]
+  },
+  "c89b7ca5cd8ce07c2a180ebee7b3fff1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2475ca3cd512b68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616465823961,
+        "stop" : 1616465828484,
+        "duration" : 4523
+      }
+    } ]
+  },
+  "c46623ee9665a77fed584a2af54c540c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99412b591fd650c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616465809828,
+        "stop" : 1616465822900,
+        "duration" : 13072
+      }
+    } ]
+  },
+  "b02647d8093f94864317ef683c8f350e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8d5b6a0274393af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616465829526,
+        "stop" : 1616465875414,
+        "duration" : 45888
+      }
+    } ]
+  },
+  "95bb2801979d823569abbf03b4bb92e6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7948b6e3faf3f271",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '登陆成功' in '密码错误!'",
+      "time" : {
+        "start" : 1616465801117,
+        "stop" : 1616465801261,
+        "duration" : 144
+      }
+    } ]
+  },
+  "25e653eb7ff5853569cfdcbf18a5b6ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26bda785bffc4720",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616465875424,
+        "stop" : 1616465876676,
+        "duration" : 1252
+      }
+    } ]
+  },
+  "fe46e330ae1025b0e30b014bae4b0ef1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "21d2cd06976b6d25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616465786695,
+        "stop" : 1616465801113,
+        "duration" : 14418
+      }
+    } ]
+  },
+  "3128c42915abe3a429c9919583f7e0be" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "743d08b31b3dbe83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616465801268,
+        "stop" : 1616465801354,
+        "duration" : 86
+      }
+    } ]
+  }
+}

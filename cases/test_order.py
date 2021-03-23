@@ -24,7 +24,7 @@ class Test_Search():  # 这是一个搜索的类
     @pytest.mark.parametrize('listcases2', datas['orderPage'])
     @allure.story("产看订单")
     @pytest.mark.login
-    @pytest.mark.run(order=4)
+    @pytest.mark.run(order=6)
     def test_search(self, listcases2):
         allure.dynamic.title(listcases2['title'])  # 获取yaml中的title
         testcase = listcases2['cases']

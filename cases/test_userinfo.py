@@ -22,7 +22,7 @@ class Test_Userinfo():  # 这是查看个人信息的类
     @pytest.mark.parametrize('listcases', datas['userinfoPage'])
     @allure.story("我的")
     @pytest.mark.login
-    @pytest.mark.run(order=3)
+    @pytest.mark.run(order=5)
     def test_userinfo(self, listcases):
         allure.dynamic.title(listcases['title'])  # 获取yaml中的title
         testcase = listcases['cases']
