@@ -1,0 +1,88 @@
+# 搜素东西用例
+
+buyPage:
+  -
+    title: 购买物品
+    cases:
+#      -
+#        name : 跳转到主页
+#        method : click
+#        locator : xpath=/html/body/div[1]/div[2]/a/img
+#
+#      -
+#        name : 搜索栏输入要搜索信息
+#        method : input
+#        locator: xpath=//*[@id="q"]
+#        value : 坚果
+#
+#
+#      - name: 点击搜索按钮
+#        method: click
+#        locator: xpath=//*[@id="searchForm"]/button
+#
+#
+#      - name: 点击第一个物品
+#        method: click
+#        locator: xpath=/html/body/div[4]/div/div[2]/div[2]/ul/li/div/div[1]/a/img
+#
+#      -
+#        name : 点击加入购物车
+#        method : click
+#        locator : xpath=//*[@id="join_cart"]
+
+#      -
+#        name: 点击继续购物
+#        method: click
+#        locator: xpath=//*[@id="addCartBox"]/div[1]/div/div/a[1]
+
+      -
+        name : 清除搜索框内的文字
+        method : clear
+        locator : xpath=//*[@id="q"]
+
+      -
+        name : 搜索框输入iphone
+        method : input
+        locator : xpath=//*[@id="q"]
+        value : iphone
+
+      - name: 点击搜索按钮
+        method: click
+        locator: xpath=//*[@id="searchForm"]/button
+
+      -
+        name : 点击第一个
+        method : click
+        locator : xpath=/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a/img
+
+      - name: 点击加入购物车
+        method: click
+        locator: xpath=//*[@id="join_cart"]
+
+
+      - name : 进入进入iframe
+        method : intoifarme
+        locator : xpath=//*[@id="layui-layer-iframe1"]
+
+      - name: 固定等待
+        method: sleep
+        time: 2
+
+      - name: 点击继续购物
+        method: click
+        locator: xpath=//*[@id="addCartBox"]/div[1]/div/div/a[1]
+
+
+
+      - name: 点击我的购物车
+        method: click
+        locator: xpath=//*[@id="hd-my-cart"]/a/div
+
+
+
+      - name: 点击去结算
+        method: click
+        locator: xpath=/html/body/div[4]/div/div/div/div[2]/div[2]/div[1]/a
+
+
+

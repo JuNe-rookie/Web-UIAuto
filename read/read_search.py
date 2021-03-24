@@ -7,7 +7,7 @@ import yaml
 import os
 datas1 = None
 # 读取数据驱动的数据
-filename = os.path.split(os.path.dirname(__file__))[0] + '/data/search.yaml'
+filename = os.path.split(os.path.dirname(__file__))[0] + '/data/UI/search.yaml'
 
 with open(filename, encoding='utf8') as e:
     datas = yaml.safe_load(e)

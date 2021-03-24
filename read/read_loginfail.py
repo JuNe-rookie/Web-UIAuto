@@ -7,7 +7,7 @@ import os
 
 datas = None
 # 读取数据驱动的数据
-filename = os.path.split(os.path.dirname(__file__))[0] + '/data/loginfail.yaml'
+filename = os.path.split(os.path.dirname(__file__))[0] + '/data/UI/loginfail.yaml'
 
 with open(filename, encoding='utf8') as f:
     datas = yaml.safe_load(f)

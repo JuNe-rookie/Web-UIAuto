@@ -22,7 +22,7 @@ class Test_Search():  # 这是一个搜索的类
         pass
 
     @pytest.mark.parametrize('listcases2', datas['orderPage'])
-    @allure.story("产看订单")
+    @allure.story("查看订单")
     @pytest.mark.login
     @pytest.mark.run(order=6)
     def test_search(self, listcases2):
