@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "67630a8ecde463fc",
+      "uid" : "d4b81dd3bba8b871",
       "status" : "passed",
       "time" : {
-        "start" : 1616559845872,
-        "stop" : 1616559852319,
-        "duration" : 6447
+        "start" : 1616582868612,
+        "stop" : 1616582875016,
+        "duration" : 6404
       }
     } ]
   },
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c7e11bbbc48d49ed",
+      "uid" : "3f266b466ca74628",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert '登陆成功' == '账号不存在!'\n  - 账号不存在!\n  + 登陆成功",
       "time" : {
-        "start" : 1616559844512,
-        "stop" : 1616559844617,
-        "duration" : 105
+        "start" : 1616582867198,
+        "stop" : 1616582867383,
+        "duration" : 185
       }
     } ]
   },
@@ -48,32 +48,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "60abb12a5b3dbd0e",
+      "uid" : "8b33ee9255909ca7",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 'http://testi...er/login.html' == 'http://www.t...er/index.html'\n  - http://www.testingedu.com.cn:8000/index.php/Home/User/index.html\n  ?        ----                                      ^      ---\n  + http://testingedu.com.cn:8000/index.php/Home/user/login.html\n  ?                                              ^    +++",
       "time" : {
-        "start" : 1616559814318,
-        "stop" : 1616559828846,
-        "duration" : 14528
-      }
-    } ]
-  },
-  "c89b7ca5cd8ce07c2a180ebee7b3fff1" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6fdaa62368953737",
-      "status" : "passed",
-      "time" : {
-        "start" : 1616559867493,
-        "stop" : 1616559872004,
-        "duration" : 4511
+        "start" : 1616582836970,
+        "stop" : 1616582851565,
+        "duration" : 14595
       }
     } ]
   },
@@ -87,12 +68,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "98d31364b0ea1e17",
+      "uid" : "33a02963fd04ac8a",
       "status" : "passed",
       "time" : {
-        "start" : 1616559853362,
-        "stop" : 1616559866449,
-        "duration" : 13087
+        "start" : 1616582876061,
+        "stop" : 1616582889180,
+        "duration" : 13119
+      }
+    } ]
+  },
+  "c89b7ca5cd8ce07c2a180ebee7b3fff1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81bddb5244aee5cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616582890224,
+        "stop" : 1616582894752,
+        "duration" : 4528
       }
     } ]
   },
@@ -106,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "24314c57a75e9c1b",
+      "uid" : "a8cc6a5a54fe3cd9",
       "status" : "passed",
       "time" : {
-        "start" : 1616559844740,
-        "stop" : 1616559844832,
-        "duration" : 92
+        "start" : 1616582867480,
+        "stop" : 1616582867573,
+        "duration" : 93
       }
     } ]
   },
@@ -125,12 +125,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e9e3114a7f123c68",
+      "uid" : "5c399691a4dfcb11",
       "status" : "passed",
       "time" : {
-        "start" : 1616559873057,
-        "stop" : 1616559917091,
-        "duration" : 44034
+        "start" : 1616582895798,
+        "stop" : 1616582942861,
+        "duration" : 47063
       }
     } ]
   },
@@ -144,12 +144,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cb036841ba1fa82a",
+      "uid" : "443b31e9c00b6111",
       "status" : "passed",
       "time" : {
-        "start" : 1616559917099,
-        "stop" : 1616559918331,
-        "duration" : 1232
+        "start" : 1616582942869,
+        "stop" : 1616582944017,
+        "duration" : 1148
       }
     } ]
   },
@@ -163,12 +163,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5f3f539a5e0e87e3",
+      "uid" : "b78483ed571b1eb1",
       "status" : "passed",
       "time" : {
-        "start" : 1616559830059,
-        "stop" : 1616559844504,
-        "duration" : 14445
+        "start" : 1616582852785,
+        "stop" : 1616582867190,
+        "duration" : 14405
       }
     } ]
   },
@@ -182,13 +182,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e0895c2eff307a7f",
+      "uid" : "a8340e31046ed829",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert '登陆成功' == '密码错误!'\n  - 密码错误!\n  + 登陆成功",
       "time" : {
-        "start" : 1616559844626,
-        "stop" : 1616559844716,
-        "duration" : 90
+        "start" : 1616582867392,
+        "stop" : 1616582867471,
+        "duration" : 79
       }
     } ]
   }

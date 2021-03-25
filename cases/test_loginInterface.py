@@ -28,12 +28,16 @@ class Test_Login():
         #     "verify_code": "1111"
         # }
 
-        # res = self.req.visit('post', login_url, json=data['user'])
-        res = requests.post(url=login_url, json=data['user'])
-        print(res.json())
-        msg = res.json()['msg']
-        print(msg)
-        assert data["msg"] == msg
+        res = self.req.visit('post', login_url, json=data['user'])
+        msg = res['msg']
+        # 断言失败抛出异常，输出"断言失败"
+        # try:
+        #     assert data["msg"] == msg
+        # except:
+        #     print("断言失败")
+        # print(res)
+        assert data['msg'] == msg
+        print(res)
 
 
 if __name__ == '__main__':
