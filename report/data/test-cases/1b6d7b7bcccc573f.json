@@ -1,0 +1,258 @@
+{
+  "uid" : "1b6d7b7bcccc573f",
+  "name" : "我的订单",
+  "fullName" : "cases.test_order.Test_Search#test_search",
+  "historyId" : "c46623ee9665a77fed584a2af54c540c",
+  "time" : {
+    "start" : 1622196351593,
+    "stop" : 1622196364722,
+    "duration" : 13129
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Search",
+    "time" : {
+      "start" : 1622196350553,
+      "stop" : 1622196351591,
+      "duration" : 1038
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "查看全部订单",
+      "time" : {
+        "start" : 1622196351593,
+        "stop" : 1622196351843,
+        "duration" : 250
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "固定等待",
+      "time" : {
+        "start" : 1622196351843,
+        "stop" : 1622196353847,
+        "duration" : 2004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "查看待付款",
+      "time" : {
+        "start" : 1622196353847,
+        "stop" : 1622196354068,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "固定等待",
+      "time" : {
+        "start" : 1622196354068,
+        "stop" : 1622196356069,
+        "duration" : 2001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "查看待发货",
+      "time" : {
+        "start" : 1622196356069,
+        "stop" : 1622196356283,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "固定等待",
+      "time" : {
+        "start" : 1622196356283,
+        "stop" : 1622196358288,
+        "duration" : 2005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "查看待收货",
+      "time" : {
+        "start" : 1622196358288,
+        "stop" : 1622196358500,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "固定等待",
+      "time" : {
+        "start" : 1622196358500,
+        "stop" : 1622196360505,
+        "duration" : 2005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "查看待评论",
+      "time" : {
+        "start" : 1622196360505,
+        "stop" : 1622196360720,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "固定等待",
+      "time" : {
+        "start" : 1622196360720,
+        "stop" : 1622196362720,
+        "duration" : 2000
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Search::0",
+    "time" : {
+      "start" : 1622196364725,
+      "stop" : 1622196364725,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "查看订单"
+  }, {
+    "name" : "story",
+    "value" : "查看订单"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=6)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Search"
+  }, {
+    "name" : "host",
+    "value" : "liuyuedeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "35516-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases2",
+    "value" : "{'title': '我的订单', 'cases': [{'name': '查看全部订单', 'method': 'click', 'locator': 'xpath=/html/body/div[3]/div/div[2]/div[1]/div/ul[1]/li[2]/a'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}, {'name': '查看待付款', 'method': 'click', 'locator': 'xpath=//*[@id=\"navitems5\"]/ul/li[2]/a'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}, {'name': '查看待发货', 'mathod': 'click', 'locator': 'xpath=//*[@id=\"navitems5\"]/ul/li[3]/a'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}, {'name': '查看待收货', 'method': 'click', 'locator': 'xpath=//*[@id=\"navitems5\"]/ul/li[4]/a'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}, {'name': '查看待评论', 'method': 'click', 'locator': 'xpath=//*[@id=\"navitems5\"]/ul/li[5]/a'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "login", "run(order=6)" ]
+  },
+  "source" : "1b6d7b7bcccc573f.json",
+  "parameterValues" : [ "{'title': '我的订单', 'cases': [{'name': '查看全部订单', 'method': 'click', 'locator': 'xpath=/html/body/div[3]/div/div[2]/div[1]/div/ul[1]/li[2]/a'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}, {'name': '查看待付款', 'method': 'click', 'locator': 'xpath=//*[@id=\"navitems5\"]/ul/li[2]/a'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}, {'name': '查看待发货', 'mathod': 'click', 'locator': 'xpath=//*[@id=\"navitems5\"]/ul/li[3]/a'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}, {'name': '查看待收货', 'method': 'click', 'locator': 'xpath=//*[@id=\"navitems5\"]/ul/li[4]/a'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}, {'name': '查看待评论', 'method': 'click', 'locator': 'xpath=//*[@id=\"navitems5\"]/ul/li[5]/a'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}]}" ]
+}

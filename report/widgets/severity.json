@@ -1,0 +1,101 @@
+[ {
+  "uid" : "51385833b8d545bd",
+  "name" : "test_loginInterface[data0]",
+  "time" : {
+    "start" : 1622199755092,
+    "stop" : 1622199755197,
+    "duration" : 105
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7923186b849bfd33",
+  "name" : "登录失败",
+  "time" : {
+    "start" : 1622199724770,
+    "stop" : 1622199739411,
+    "duration" : 14641
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a29756bd3303af83",
+  "name" : "test_loginInterface[data1]",
+  "time" : {
+    "start" : 1622199755206,
+    "stop" : 1622199755281,
+    "duration" : 75
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2284a088dd7fbaaf",
+  "name" : "我的信息",
+  "time" : {
+    "start" : 1622199756425,
+    "stop" : 1622199762900,
+    "duration" : 6475
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab153d7a2b7112aa",
+  "name" : "我的订单",
+  "time" : {
+    "start" : 1622199763941,
+    "stop" : 1622199777017,
+    "duration" : 13076
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de458151fe54158c",
+  "name" : "test_email",
+  "time" : {
+    "start" : 1622199840235,
+    "stop" : 1622199841368,
+    "duration" : 1133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "202c0d41682a3377",
+  "name" : "购买物品",
+  "time" : {
+    "start" : 1622199783664,
+    "stop" : 1622199840230,
+    "duration" : 56566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72e4dc039e960102",
+  "name" : "test_loginInterface[data2]",
+  "time" : {
+    "start" : 1622199755290,
+    "stop" : 1622199755380,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21050906b7643fa0",
+  "name" : "登录成功",
+  "time" : {
+    "start" : 1622199740648,
+    "stop" : 1622199755088,
+    "duration" : 14440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5231bf5b6d3a1cb0",
+  "name" : "搜索物品",
+  "time" : {
+    "start" : 1622199778062,
+    "stop" : 1622199782618,
+    "duration" : 4556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

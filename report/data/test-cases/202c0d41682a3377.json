@@ -1,0 +1,341 @@
+{
+  "uid" : "202c0d41682a3377",
+  "name" : "购买物品",
+  "fullName" : "cases.test_buy.Test_Search#test_search",
+  "historyId" : "b02647d8093f94864317ef683c8f350e",
+  "time" : {
+    "start" : 1622199783664,
+    "stop" : 1622199840230,
+    "duration" : 56566
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Search",
+    "time" : {
+      "start" : 1622199782625,
+      "stop" : 1622199783662,
+      "duration" : 1037
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "清除搜索框内的文字",
+      "time" : {
+        "start" : 1622199783664,
+        "stop" : 1622199783701,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "搜索框输入iphone",
+      "time" : {
+        "start" : 1622199787705,
+        "stop" : 1622199787795,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击搜索按钮",
+      "time" : {
+        "start" : 1622199791801,
+        "stop" : 1622199792276,
+        "duration" : 475
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击第一个",
+      "time" : {
+        "start" : 1622199796277,
+        "stop" : 1622199796861,
+        "duration" : 584
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击加入购物车",
+      "time" : {
+        "start" : 1622199800865,
+        "stop" : 1622199800917,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "进入进入iframe",
+      "time" : {
+        "start" : 1622199804920,
+        "stop" : 1622199804961,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "固定等待",
+      "time" : {
+        "start" : 1622199808965,
+        "stop" : 1622199810968,
+        "duration" : 2003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击继续购物",
+      "time" : {
+        "start" : 1622199814969,
+        "stop" : 1622199815048,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击我的购物车",
+      "time" : {
+        "start" : 1622199819050,
+        "stop" : 1622199819305,
+        "duration" : 255
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击去结算",
+      "time" : {
+        "start" : 1622199823309,
+        "stop" : 1622199823998,
+        "duration" : 689
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击去结算",
+      "time" : {
+        "start" : 1622199828000,
+        "stop" : 1622199828098,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入名字",
+      "time" : {
+        "start" : 1622199832102,
+        "stop" : 1622199832158,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "电话",
+      "time" : {
+        "start" : 1622199836159,
+        "stop" : 1622199836230,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Search::0",
+    "time" : {
+      "start" : 1622199840231,
+      "stop" : 1622199840232,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购买物品"
+  }, {
+    "name" : "story",
+    "value" : "购买物品"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=8)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Search"
+  }, {
+    "name" : "host",
+    "value" : "liuyuedeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "37121-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases2",
+    "value" : "{'title': '购买物品', 'cases': [{'name': '清除搜索框内的文字', 'method': 'clear', 'locator': 'xpath=//*[@id=\"q\"]'}, {'name': '搜索框输入iphone', 'method': 'input', 'locator': 'xpath=//*[@id=\"q\"]', 'value': 'iphone'}, {'name': '点击搜索按钮', 'method': 'click', 'locator': 'xpath=//*[@id=\"searchForm\"]/button'}, {'name': '点击第一个', 'method': 'click', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a/img'}, {'name': '点击加入购物车', 'method': 'click', 'locator': 'xpath=//*[@id=\"join_cart\"]'}, {'name': '进入进入iframe', 'method': 'intoifarme', 'locator': 'xpath=//*[@id=\"layui-layer-iframe1\"]'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}, {'name': '点击继续购物', 'method': 'click', 'locator': 'xpath=//*[@id=\"addCartBox\"]/div[1]/div/div/a[1]'}, {'name': '点击我的购物车', 'method': 'click', 'locator': 'xpath=//*[@id=\"hd-my-cart\"]/a/div'}, {'name': '点击去结算', 'method': 'click', 'locator': 'xpath=/html/body/div[4]/div/div/div/div[2]/div[2]/div[1]/a'}, {'name': '点击去结算', 'method': 'click', 'locator': 'xpath=//*[@id=\"addNewAddress\"]'}, {'name': '输入名字', 'method': 'input', 'locator': 'xpath=//*[@id=\"address_form\"]/div[2]/div/div[2]/div[1]/div/input', 'value': 'June'}, {'name': '电话', 'method': 'input', 'locator': 'xpath=//*[@id=\"address_form\"]/div[2]/div/div[2]/div[2]/div/input', 'value': 18030067086}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2e731868f3fb0a53",
+      "status" : "broken",
+      "statusDetails" : "TypeError: click() takes from 1 to 2 positional arguments but 3 were given",
+      "time" : {
+        "start" : 1622197475089,
+        "stop" : 1622197531371,
+        "duration" : 56282
+      }
+    }, {
+      "uid" : "654c48b35efc2829",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"district\"]/option[15]\"}\n  (Session info: chrome=87.0.4280.141)",
+      "time" : {
+        "start" : 1622197141117,
+        "stop" : 1622197219125,
+        "duration" : 78008
+      }
+    }, {
+      "uid" : "483e6214a41802bf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchFrameException: Message: no such frame: element is not a frame\n  (Session info: chrome=87.0.4280.141)",
+      "time" : {
+        "start" : 1622196371379,
+        "stop" : 1622196420283,
+        "duration" : 48904
+      }
+    }, {
+      "uid" : "693cabdd6f02f538",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchFrameException: Message: no such frame: element is not a frame\n  (Session info: chrome=87.0.4280.141)",
+      "time" : {
+        "start" : 1622196050866,
+        "stop" : 1622196099881,
+        "duration" : 49015
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "login", "run(order=8)" ]
+  },
+  "source" : "202c0d41682a3377.json",
+  "parameterValues" : [ "{'title': '购买物品', 'cases': [{'name': '清除搜索框内的文字', 'method': 'clear', 'locator': 'xpath=//*[@id=\"q\"]'}, {'name': '搜索框输入iphone', 'method': 'input', 'locator': 'xpath=//*[@id=\"q\"]', 'value': 'iphone'}, {'name': '点击搜索按钮', 'method': 'click', 'locator': 'xpath=//*[@id=\"searchForm\"]/button'}, {'name': '点击第一个', 'method': 'click', 'locator': 'xpath=/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a/img'}, {'name': '点击加入购物车', 'method': 'click', 'locator': 'xpath=//*[@id=\"join_cart\"]'}, {'name': '进入进入iframe', 'method': 'intoifarme', 'locator': 'xpath=//*[@id=\"layui-layer-iframe1\"]'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}, {'name': '点击继续购物', 'method': 'click', 'locator': 'xpath=//*[@id=\"addCartBox\"]/div[1]/div/div/a[1]'}, {'name': '点击我的购物车', 'method': 'click', 'locator': 'xpath=//*[@id=\"hd-my-cart\"]/a/div'}, {'name': '点击去结算', 'method': 'click', 'locator': 'xpath=/html/body/div[4]/div/div/div/div[2]/div[2]/div[1]/a'}, {'name': '点击去结算', 'method': 'click', 'locator': 'xpath=//*[@id=\"addNewAddress\"]'}, {'name': '输入名字', 'method': 'input', 'locator': 'xpath=//*[@id=\"address_form\"]/div[2]/div/div[2]/div[1]/div/input', 'value': 'June'}, {'name': '电话', 'method': 'input', 'locator': 'xpath=//*[@id=\"address_form\"]/div[2]/div/div[2]/div[2]/div/input', 'value': 18030067086}]}" ]
+}

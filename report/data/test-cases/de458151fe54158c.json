@@ -1,0 +1,96 @@
+{
+  "uid" : "de458151fe54158c",
+  "name" : "test_email",
+  "fullName" : "cases.test_email.Test_Email#test_email",
+  "historyId" : "25e653eb7ff5853569cfdcbf18a5b6ab",
+  "time" : {
+    "start" : 1622199840235,
+    "stop" : 1622199841368,
+    "duration" : 1133
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "发送邮件"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=9)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_email"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Email"
+  }, {
+    "name" : "host",
+    "value" : "liuyuedeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "37121-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_email"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b6dd15c68dc5a77a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622197531382,
+        "stop" : 1622197532467,
+        "duration" : 1085
+      }
+    }, {
+      "uid" : "473792a59f3cbaa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622197219174,
+        "stop" : 1622197220386,
+        "duration" : 1212
+      }
+    }, {
+      "uid" : "6d365b95ac8b9353",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622196420314,
+        "stop" : 1622196421552,
+        "duration" : 1238
+      }
+    }, {
+      "uid" : "df471a2b5532d4c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622196099923,
+        "stop" : 1622196101165,
+        "duration" : 1242
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "login", "run(order=9)" ]
+  },
+  "source" : "de458151fe54158c.json",
+  "parameterValues" : [ ]
+}

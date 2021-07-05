@@ -1,0 +1,107 @@
+{
+  "uid" : "72e4dc039e960102",
+  "name" : "test_loginInterface[data2]",
+  "fullName" : "cases.test_loginInterface.Test_Login#test_loginInterface",
+  "historyId" : "f1d1c788810a5b0b6cf4fbcceb9f5da9",
+  "time" : {
+    "start" : 1622199755290,
+    "stop" : 1622199755380,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录接口校验"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_loginInterface"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "liuyuedeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "37121-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_loginInterface"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'user': {'name': '正确账号密码', 'username': 13800138006, 'password': 123456, 'verify_code': 11111}, 'msg': '登陆成功'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3bc0a7bbc8c0539d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622197646368,
+        "stop" : 1622197646464,
+        "duration" : 96
+      }
+    }, {
+      "uid" : "aa4b50712a459339",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622197446644,
+        "stop" : 1622197446728,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "55638480e51b4257",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622197112204,
+        "stop" : 1622197112621,
+        "duration" : 417
+      }
+    }, {
+      "uid" : "225697683a86bc02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622196342831,
+        "stop" : 1622196342914,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "1704d74cf6e9eb7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622196022449,
+        "stop" : 1622196022536,
+        "duration" : 87
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)", "login" ]
+  },
+  "source" : "72e4dc039e960102.json",
+  "parameterValues" : [ "{'user': {'name': '正确账号密码', 'username': 13800138006, 'password': 123456, 'verify_code': 11111}, 'msg': '登陆成功'}" ]
+}

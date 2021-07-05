@@ -1,0 +1,62 @@
+{
+  "uid" : "473792a59f3cbaa0",
+  "name" : "test_email",
+  "fullName" : "cases.test_email.Test_Email#test_email",
+  "historyId" : "25e653eb7ff5853569cfdcbf18a5b6ab",
+  "time" : {
+    "start" : 1622197219174,
+    "stop" : 1622197220386,
+    "duration" : 1212
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "发送邮件"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=9)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_email"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Email"
+  }, {
+    "name" : "host",
+    "value" : "liuyuedeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "35807-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_email"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "login", "run(order=9)" ]
+  },
+  "source" : "473792a59f3cbaa0.json",
+  "parameterValues" : [ ]
+}

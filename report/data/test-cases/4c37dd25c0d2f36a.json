@@ -1,0 +1,202 @@
+{
+  "uid" : "4c37dd25c0d2f36a",
+  "name" : "登录失败",
+  "fullName" : "cases.test_loginfail.Test_Loginfail#test_loginfail",
+  "historyId" : "3d1f0b6cffcd0489525db73c0191dca1",
+  "time" : {
+    "start" : 1622197416191,
+    "stop" : 1622197430785,
+    "duration" : 14594
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'http://testi...er/login.html' == 'http://www.t...er/index.html'\n  - http://www.testingedu.com.cn:8000/index.php/Home/User/index.html\n  ?        ----                                      ^      ---\n  + http://testingedu.com.cn:8000/index.php/Home/user/login.html\n  ?                                              ^    +++",
+  "statusTrace" : "self = <cases.test_loginfail.Test_Loginfail object at 0x7f9aae3b9250>\nlistcases = ['固定等待', 'sleep', 2]\n\n    @pytest.mark.parametrize('listcases', datas['loginfailPage'])\n    @allure.story(\"用户登陆\")\n    @pytest.mark.login\n    @pytest.mark.run(order=1)\n    def test_loginfail(self, listcases):\n        allure.dynamic.title(listcases['title'])  # 获取yaml中的title\n    \n        testcase = listcases['cases']\n        for cases in testcase:\n            listcases = list(cases.values())  # 获取字典列表值\n            with allure.step(listcases[0]):\n                func = getattr(self.web, listcases[1])\n                values = listcases[2:]\n                func(*values)\n            self.web.sleep(2)\n    \n        url = self.web.currentPageUrl()\n        print(\"当前页面的url是：\", url)\n>       assert url == \"http://www.testingedu.com.cn:8000/index.php/Home/User/index.html\"\nE       AssertionError: assert 'http://testi...er/login.html' == 'http://www.t...er/index.html'\nE         - http://www.testingedu.com.cn:8000/index.php/Home/User/index.html\nE         ?        ----                                      ^      ---\nE         + http://testingedu.com.cn:8000/index.php/Home/user/login.html\nE         ?                                              ^    +++\n\ncases/test_loginfail.py:42: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Loginfail",
+    "time" : {
+      "start" : 1622197415036,
+      "stop" : 1622197416187,
+      "duration" : 1151
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'http://testi...er/login.html' == 'http://www.t...er/index.html'\n  - http://www.testingedu.com.cn:8000/index.php/Home/User/index.html\n  ?        ----                                      ^      ---\n  + http://testingedu.com.cn:8000/index.php/Home/user/login.html\n  ?                                              ^    +++",
+    "statusTrace" : "self = <cases.test_loginfail.Test_Loginfail object at 0x7f9aae3b9250>\nlistcases = ['固定等待', 'sleep', 2]\n\n    @pytest.mark.parametrize('listcases', datas['loginfailPage'])\n    @allure.story(\"用户登陆\")\n    @pytest.mark.login\n    @pytest.mark.run(order=1)\n    def test_loginfail(self, listcases):\n        allure.dynamic.title(listcases['title'])  # 获取yaml中的title\n    \n        testcase = listcases['cases']\n        for cases in testcase:\n            listcases = list(cases.values())  # 获取字典列表值\n            with allure.step(listcases[0]):\n                func = getattr(self.web, listcases[1])\n                values = listcases[2:]\n                func(*values)\n            self.web.sleep(2)\n    \n        url = self.web.currentPageUrl()\n        print(\"当前页面的url是：\", url)\n>       assert url == \"http://www.testingedu.com.cn:8000/index.php/Home/User/index.html\"\nE       AssertionError: assert 'http://testi...er/login.html' == 'http://www.t...er/index.html'\nE         - http://www.testingedu.com.cn:8000/index.php/Home/User/index.html\nE         ?        ----                                      ^      ---\nE         + http://testingedu.com.cn:8000/index.php/Home/user/login.html\nE         ?                                              ^    +++\n\ncases/test_loginfail.py:42: AssertionError",
+    "steps" : [ {
+      "name" : "打开登录页",
+      "time" : {
+        "start" : 1622197416191,
+        "stop" : 1622197416485,
+        "duration" : 294
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1622197418488,
+        "stop" : 1622197418591,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1622197420596,
+        "stop" : 1622197420650,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入验证码",
+      "time" : {
+        "start" : 1622197422654,
+        "stop" : 1622197422707,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1622197424708,
+        "stop" : 1622197424756,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "固定等待",
+      "time" : {
+        "start" : 1622197426760,
+        "stop" : 1622197428765,
+        "duration" : 2005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Loginfail::0",
+    "time" : {
+      "start" : 1622197430875,
+      "stop" : 1622197430875,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用户登陆"
+  }, {
+    "name" : "feature",
+    "value" : "用户登陆失败"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_loginfail"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Loginfail"
+  }, {
+    "name" : "host",
+    "value" : "liuyuedeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "35990-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_loginfail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases",
+    "value" : "{'title': '登录失败', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': 'xpath=//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': 'xpath=//*[@id=\"password\"]', 'value': 123456555}, {'name': '输入验证码', 'method': 'input', 'locator': 'xpath=//*[@id=\"verify_code\"]', 'value': 111111}, {'name': '点击登录', 'method': 'click', 'locator': 'xpath=//*[@id=\"loginform\"]/div/div[6]/a'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "login" ]
+  },
+  "source" : "4c37dd25c0d2f36a.json",
+  "parameterValues" : [ "{'title': '登录失败', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': 'xpath=//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': 'xpath=//*[@id=\"password\"]', 'value': 123456555}, {'name': '输入验证码', 'method': 'input', 'locator': 'xpath=//*[@id=\"verify_code\"]', 'value': 111111}, {'name': '点击登录', 'method': 'click', 'locator': 'xpath=//*[@id=\"loginform\"]/div/div[6]/a'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}]}" ]
+}
