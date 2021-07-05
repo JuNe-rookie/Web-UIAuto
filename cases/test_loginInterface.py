@@ -22,11 +22,6 @@ class Test_Login():
         # 关闭session
         self.req.close_session()
         login_url = "http://www.testingedu.com.cn:8000/index.php?m=Home&c=User&a=do_login&t=0.6533599798088903"
-        # payload = {
-        #     "username": "13800138006",
-        #     "password": "12345",
-        #     "verify_code": "1111"
-        # }
 
         res = self.req.visit('post', login_url, json=data['user'])
         msg = res['msg']
