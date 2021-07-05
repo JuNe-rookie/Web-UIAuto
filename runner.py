@@ -1,3 +1,4 @@
+# coding=UTF-8
 # @Time:2021/2/2 17:29
 # @Author:liuyue
 # @Email:liuyue@soyoung.com
@@ -6,7 +7,9 @@
 import pytest
 import os
 import shutil
-import allure
+
+# import allure
+
 # from read.read_login import datas
 
 # print(datas)
@@ -19,11 +22,7 @@ if __name__ == '__main__':
     print("===============================    执行测试结束    ===============================")
 
     print("==============================    正在生成测试报告    =============================")
-    shutil.copy('/Users/liuyue/Desktop/刘岳/pythonProjectSEle/environment.properties',
-                r'/Users/liuyue/Desktop/刘岳/pythonProjectSEle/temp')
+    # shutil.copy('environment.properties', '/temp')  # 测试环境变量，还没搞定
     os.system('allure generate ./temp -o ./report --clean')
-
-    # shutil.copy('/Users/liuyue/Desktop/刘岳/pythonProjectSEle/environment.properties',
-    #             r'/Users/liuyue/Desktop/刘岳/pythonProjectSEle/report')
 
     print("=====================    测试报告生成功，请在report中查看    ========================")

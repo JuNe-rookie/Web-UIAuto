@@ -20,7 +20,7 @@ class Comm:
         """
 
         # 谷歌复用浏览器，可以在一个页面执行多个case，不用再次打开新窗口导致需要再次登陆
-        # 浏览器复用目前只支持谷歌浏览器ß
+        # 浏览器复用目前只做了持谷歌浏览器
         if br == 'gc':
             option = Options()
             option.debugger_address = "127.0.0.1:9222"

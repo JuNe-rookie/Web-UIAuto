@@ -1,5 +1,4 @@
 # 搜素东西用例
-
 buyPage:
   -
     title: 购买物品
@@ -72,17 +71,77 @@ buyPage:
         method: click
         locator: xpath=//*[@id="addCartBox"]/div[1]/div/div/a[1]
 
-
-
       - name: 点击我的购物车
         method: click
         locator: xpath=//*[@id="hd-my-cart"]/a/div
-
-
 
       - name: 点击去结算
         method: click
         locator: xpath=/html/body/div[4]/div/div/div/div[2]/div[2]/div[1]/a
 
-
-
+#      - name: 点击去结算
+#        method: click
+#        locator: xpath=//*[@id="addNewAddress"]
+#
+##      - name: 进入iframe
+##        method: intoifarme
+##        locator: xpath=//*[@id="address_form"]
+#
+#      - name: 输入名字
+#        method: input
+#        locator: xpath=//*[@id="address_form"]/div[2]/div/div[2]/div[1]/div/input
+#        value : June
+#
+#      - name: 电话
+#        method: input
+#        locator: xpath=//*[@id="address_form"]/div[2]/div/div[2]/div[2]/div/input
+#        value: 18030067086
+#
+##      - name: 点击北京市
+##        method: click
+##        locator: xpath=//*[@id="province"]/option[1]
+##        value : 1
+##
+##      - name: 点击北京市
+##        method: click
+##        locator: xpath=//*[@id="province"]/option[1]
+##
+##      - name: 点击市辖区
+##        method: click
+##        locator: xpath=//*[@id="city"]/option[1]
+##
+##      - name: 点击大兴区
+##        method: click
+##        locator: xpath=//*[@id="district"]/option[15]
+##
+##      - name: 点击清源街道
+##        method: click
+##        locator: xpath=//*[@id="twon"]/option[3]
+##
+##      - name: 详细住址
+##        method: input
+##        locator: xpath=//*[@id="address_form"]/div[2]/div/div[2]/div[4]/div/input
+##        value: 翻斗花园翻斗楼
+##
+##      - name: 邮编
+##        method: input
+##        locator: xpath=//*[@id="address_form"]/div[2]/div/div[2]/div[5]/div/input
+##        value: 102601
+##
+##      - name: 点击保存
+##        method: click
+##        locator: xpath=//*[@id="address_submit"]
+##
+##      - name: 点击更多地址
+##        method: click
+##        locator: xpath=//*[@id="ajax_address"]/div[3]/span
+##
+##      - name: 点击第二个
+##        method: click
+##        locator: xpath=//*[@id="ajax_address"]/div[2]/ul/li[2]/div[1]
+##
+##      - name: 点击提交
+##        method: click
+##        locator: xpath=/html/body/div[14]/div/button
+##
+##
